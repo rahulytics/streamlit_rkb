@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Load data
-df = pd.read_excel("D:/Motherson/PREDICTED_DATA_1.xlsx", parse_dates=["start_week_date"])
+df = pd.read_excel("PREDICTED_DATA_1.xlsx", parse_dates=["start_week_date"])
 df['item_code'] = df['item_code'].astype(str)
 
 # Page config
